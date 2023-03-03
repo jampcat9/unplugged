@@ -88,6 +88,24 @@ textarea {
    ========================================================================== */
 
 /*------------------------------ Base Header - Footer Styles ------------------------------*/
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+header {
+  padding: 15px 0;
+}
+
+figure {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 20px 0px 15px 0px;
+}
 
 header, footer {
   display: flex;
@@ -101,6 +119,13 @@ header, .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -108,11 +133,17 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+footer {
+  flex-direction: column;
 }
 
 footer .social-icons {
@@ -125,6 +156,23 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer, .contact {
+  margin-bottom: 50px;
+}
+
+footer, .copyright {
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
 }
 
 /*--------------- Mobile styles - Homepage ---------------*/
@@ -144,12 +192,29 @@ aside {
   flex-flow: row wrap;
 }
 
+h3 {
+  padding: 20px 0;
+  margin: 0;
+}
+
+.form-description p {
+  padding-bottom: 30px;
+}
+
+button {
+  padding: 20px 0;
+}
+
 /* Features */
 
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.features h2 {
+  margin-bottom: 60px;
 }
 
 .features .icons {
@@ -159,12 +224,26 @@ aside {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 63%;
+  padding: 30px 0;
+}
+
 /* Reviews */
 
 .reviews { 
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
 /* =======================================================
@@ -201,10 +280,16 @@ FAQ page
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  margin: 50px 0 0 0;
 }
 
+.faq h2 {
+  margin-bottom: 40px
+}
 
+.faq-content {
+  margin-bottom: 50px;
+}
 
 
 
